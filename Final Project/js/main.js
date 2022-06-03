@@ -23,7 +23,7 @@ var noti = document.querySelector('h1');
 			var parent = e.target.parentNode;
 			var clone = parent.cloneNode(true);
 			select.appendChild(clone);
-			clone.lastElementChild.innerText = "Buy-now";
+			clone.lastElementChild.innerText = "Sell";
 			
 			if (clone) {
 				noti.onclick = ()=>{
